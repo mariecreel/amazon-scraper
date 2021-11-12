@@ -1,0 +1,20 @@
+{
+  "name": "amazon-scraper",
+  "version": "1.0.0",
+  "description": "a simple amazon product scraper, built by following https://www.smashingmagazine.com/2021/10/building-amazon-product-scraper-nodejs/",
+  "main": "amazonSearchScraper.js",
+  "scripts": {
+    "test": "node amazonSearchScraper.js shelves",
+    "build": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "typescript": "^4.4.4"
+  }
+}
